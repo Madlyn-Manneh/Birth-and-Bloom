@@ -1,7 +1,43 @@
 body {
-  background-color: red;
+  min-height: 100vh;
 }
-
+.jumbotron {
+  background-image: url(media/645254f9dce95928972baa38_three-happy-pregnant-women-are-making-selfie.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 600px;
+}
 .navbar-nav {
   display: inline-block;
+}
+.navbar-nav .nav-link {
+  color: white;
+  font-weight: bold;
+  text-shadow: 0 0 3px #000000;
+}
+.navbar-nav .nav-link:hover {
+  color: gold;
+  text-shadow: 0 0 3px #000000;
+}
+.navbar-nav .nav-item .nav-link.active,
+.text-end {
+  color: gold;
+}
+
+p {
+  text-align: center;
+  padding: 180px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  text-shadow: 0 0 2px #000000;
+}
+p .head {
+  color: gold;
+
+  font-weight: bolder;
+  font-size: larger;
+  text-shadow: 0 0 2px #000000;
 }
