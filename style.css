@@ -1,6 +1,11 @@
 body {
   min-height: 100vh;
+  background: #ffe8e3 !important;
+  font-family: "Poppins", sans-serif;
 }
+/*--------------------------------------------------------------
+# Nav-bar and header
+--------------------------------------------------------------*/
 .jumbotron {
   background-image: url(media/645254f9dce95928972baa38_three-happy-pregnant-women-are-making-selfie.jpg);
   background-attachment: fixed;
@@ -25,19 +30,76 @@ body {
 .text-end {
   color: gold;
 }
+.head {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  padding: 50px 0 250px 0;
+  height: 40px;
+  margin: 180px 180px;
+}
 
-p {
+.p-text {
   text-align: center;
-  padding: 180px;
-  color: white;
+  color: #f1c2b8;
   font-size: 20px;
   font-weight: 600;
   text-shadow: 0 0 2px #000000;
 }
-p .head {
+
+p .head-text {
   color: gold;
 
   font-weight: bolder;
   font-size: larger;
   text-shadow: 0 0 2px #000000;
+}
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+.about .content {
+  padding: 0 40px;
+}
+h2.about-head {
+  color: gold;
+  text-shadow: 0 0 2px #000000;
+}
+
+.about .content h3 {
+  font-weight: 400;
+  font-size: 34px;
+  color: #000000;
+}
+
+.about .content h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+.about .content p {
+  font-size: 15px;
+  color: #848484;
+}
+
+.about .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+.about .content ul li + li {
+  margin-top: 15px;
+}
+
+.about .content ul li {
+  position: relative;
+  padding-left: 26px;
+}
+
+.about .content ul i {
+  font-size: 20px;
+  color: #ffb03b;
+  position: absolute;
+  left: 0;
+  top: 2px;
 }
