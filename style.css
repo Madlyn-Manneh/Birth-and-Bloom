@@ -60,7 +60,8 @@ p .head-text {
 .about .content {
   padding: 0 40px;
 }
-h2.about-head {
+h2.about-head,
+h2.contact-head {
   color: gold;
   text-shadow: 0 0 2px #000000;
 }
@@ -102,4 +103,35 @@ h2.about-head {
   position: absolute;
   left: 0;
   top: 2px;
+}
+/*--------------------------------------------------------------
+# Contact Us
+--------------------------------------------------------------*/
+.contact-pic {
+  background-image: url("media/pregnant-women-3867065_1280.jpg");
+}
+.contactForm {
+  background-color: #fff;
+}
+
+.btn-contact {
+  border-radius: 15px;
+  border: 1px solid #f1c2b8;
+  background: #f1c2b8;
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  margin: 30px auto;
+  line-height: 22px;
+  padding: 10px 20px;
+  text-decoration: none;
+  transition: all 200ms ease;
+  box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+}
+
+.btn-contact:hover {
+  cursor: pointer;
+  background: #fff;
+  color: gold;
+  border: 1px solid gold;
 }
