@@ -63,17 +63,16 @@
                   <a class="nav-link" href="#about">About</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#Gallery">Gallery</a>
+                  <a class="nav-link" href="#Services">Services</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#Contact us">Contact us</a>
                 </li>
               </ul>
             </div>
-            <div class="text-end">
+            <div
+              class="mb-2 mb-lg-0 mb-sm-0 d-none d-lg-flex align-items-center pt-2 pb-2 topbar-transparent text-end"
+            >
               <a href="" class="me-4 fa-6x text-reset">
                 <i class="bi bi-facebook fs-4"></i>
               </a>
@@ -92,11 +91,11 @@
             </div>
           </div>
         </nav>
-        <div class="head">
-          <p class="p-text">
-            <span class="head-text">Experience the magic</span> <br />Welcome to
-            the world of Birth and Bloom: <br />The Doula Company. <br />We are
-            here to accompany you on a<br />
+        <div class="head container">
+          <p class="p-text pt-2">
+            <span class="head-text">Experience the magic</span>
+            <br />Welcome to the world of Birth and Bloom: <br />The Doula
+            Company. <br />We are here to accompany you on a<br />
             journey filled with comfort, support, and empowerment.
             <br />Together, let's create a birthing experience that is truly
             special and meaningful.
@@ -106,7 +105,7 @@
     </header>
 
     <!-- ======= Main body ======= -->
-    <div class="page-wrapper">
+    <div class="page-wrapper text-center text-lg-start py-3">
       <!-- ======= About Section ======= -->
       <section id="about" class="about mt-5">
         <div class="container-fluid">
@@ -166,10 +165,10 @@
     </div>
 
     <!-- ======= Footer======= -->
-    <footer class="text-center text-lg-start py-3">
+    <footer class="text-center text-lg-start py-2">
       <!-- ======= Contact Section ======= -->
       <section>
-        <div class="container mb-5" id="Contact us">
+        <div class="container mb-5 contact" id="Contact us">
           <!--Section: Contact v.2-->
           <section class="mb-4">
             <!--Section heading-->
@@ -184,7 +183,7 @@
               <!--Grid column-->
               <div class="col-md-6 contact-pic"></div>
               <!--Grid column-->
-              <div class="col-md-6 mb-md-0 mb-5 contactForm">
+              <div class="col-md-6 mb-md-0 mb-5 contactForm py-3">
                 <form
                   id="contact-form"
                   name="contact-form"
@@ -196,13 +195,14 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                       <div class="md-form mb-0">
-                        <label for="name" class="">First Name</label>
+                        <label for="firstname" class="">First Name</label>
                         <input
                           type="text"
                           id="firstname"
                           name="firstname"
                           class="form-control"
                           placeholder="Jane"
+                          autocomplete="off"
                           required
                         />
                       </div>
@@ -212,13 +212,14 @@
                     <!--Grid column-->
                     <div class="col-md-6">
                       <div class="md-form mb-0">
-                        <label for="name" class="">Last name</label>
+                        <label for="firstname" class="">Last name</label>
                         <input
                           type="text"
                           id="lastname"
                           name="lastname"
                           class="form-control"
                           placeholder="Doe"
+                          autocomplete="off"
                           required
                         />
                       </div>
@@ -228,12 +229,13 @@
                   <!--Grid column-->
                   <div class="col-md-12">
                     <div class="md-form mb-0">
-                      <label for="name" class="">Phone</label>
+                      <label for="phone" class="">Phone</label>
                       <input
                         type="number"
                         id="phone"
                         name="phone"
                         class="form-control"
+                        autocomplete="off"
                         required
                       />
                     </div>
@@ -241,13 +243,14 @@
                   <!--Grid column-->
                   <div class="col-md-12">
                     <div class="md-form mb-0">
-                      <label for="name" class="">City</label>
+                      <label for="city" class="">City</label>
                       <input
                         type="text"
                         id="city"
                         name="city"
                         class="form-control"
                         placeholder="Atlanta"
+                        autocomplete="off"
                         required
                       />
                     </div>
@@ -263,6 +266,7 @@
                           name="email"
                           class="form-control"
                           placeholder="example@gmail.com"
+                          autocomplete="off"
                           required
                         />
                       </div>
@@ -281,6 +285,7 @@
                           name="message"
                           rows="4"
                           class="form-control md-textarea"
+                          autocomplete="off"
                         ></textarea>
                       </div>
                     </div>
@@ -300,13 +305,11 @@
           <!--Section: Contact v.2-->
         </div>
       </section>
-      <div class="row mt-2">
+
+      <div class="row">
         <!-- Grid column -->
-        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4 text-center mx-auto">
           <ul class="social">
-            <li>
-              <a href=""><i class="bi bi-whatsapp fs-4"></i></a>
-            </li>
             <li>
               <a href=""><i class="bi bi-facebook fs-4"></i></a>
             </li>
@@ -319,12 +322,16 @@
             <li>
               <a href=""><i class="bi bi-whatsapp fs-4"></i></a>
             </li>
+
+            <li>
+              <a href=""><i class="bi bi-twitter fs-4"></i></a>
+            </li>
           </ul>
         </div>
 
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4 text-white">
+        <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4 text-white">
           <ul class="info">
-            <li><i class="bi bi-envelope me-3"></i>info@example.com</li>
+            <li><i class="bi bi-envelope me-4 info1"></i>info@example.com</li>
           </ul>
         </div>
         <!-- Links -->
